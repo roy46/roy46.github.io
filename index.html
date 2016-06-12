@@ -1,0 +1,22 @@
+---
+layout: page
+title: Posts
+---
+
+<ul class="demo-list-three mdl-list">
+  {% for post in site.posts %}
+    <li class="mdl-list__item mdl-list__item--three-line">
+      <span class="mdl-list__item-primary-content">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span style="">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="mdl-list__item-text-body">
+          Bryan Cranston played the role of Walter in Breaking Bad. He is also known
+          for playing Hal in Malcom in the Middle.
+        </span>
+      </span>  
+    
+    </li>  
+      <hr/>  
+  {% endfor %}  
+</ul>  
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> 
