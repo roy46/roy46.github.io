@@ -5,7 +5,9 @@ date:   2016-06-05 13:45:00 +0100
 categories: c-sharp spatial
 ---
 
- 
+
+details: 
+
 {% highlight C# linenos=table %}
 public static class SpatialUtils
 {
