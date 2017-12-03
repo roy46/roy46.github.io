@@ -1,16 +1,15 @@
-# Site settings
-title: Headers
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "roy46.gthub.io" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  
+name: General Tech Blog :)
+description: Blogging about tech stuffs
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-# Build settings
 markdown: kramdown
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://github.io'
+google_analytics: 'UA-110577792-1'
+gems: [jekyll-paginate]
 
-comments: true
+# Details for the RSS feed generator
+url:            'roy46.github.io'
+author:         'Roy Cockram'
