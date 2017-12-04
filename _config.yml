@@ -5,7 +5,7 @@ meta_description: "Your New Jekyll Site, Blogging about stuffs"
 markdown: kramdown
 logo: false
 paginate: 15
-baseurl: http://roy46.github.io/
+baseurl: /
 domain_name: 'http://github.io'
 google_analytics: 'UA-110577792-1'
 gems: [jekyll-paginate]
