@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Aurelia and Fine Uplaoder Browse Button"
+title:  "Aurelia and Fine Uploader Browse Button"
 date:   2017-12-02 13:45:00 +0100
 categories: aurelia fine-uploaded
 cover: https://yanangskiart.files.wordpress.com/2012/05/progress-bar-wallpaper2.jpg
