@@ -47,8 +47,9 @@ logo: /assets/images/logo3.png
         </section>
         <footer class="post-meta">
             {% if site.author %}
+            <a href='/{{ page.about }}'>   
                 <img class="author-thumb" src="/assets/images/profile_small.png" alt="Author's profile picture" nopin="nopin" />
-               
+            </a>
             {% endif %}
             {% if post.categories.size > 0 %} 
                 {{ post.categories | array_to_sentence_string | prepend: 'talking about ' }} 
