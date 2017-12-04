@@ -5,7 +5,7 @@ meta_description: "cached - tech blog by Roy Cockram"
 markdown: kramdown
 logo: false
 paginate: 15
-baseurl: /
+baseurl: "/"
 domain_name: 'http://github.io'
 google_analytics: 'UA-110577792-1'
 gems: [jekyll-paginate]
