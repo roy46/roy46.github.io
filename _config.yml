@@ -1,6 +1,6 @@
-name: General Tech Blog :)
+name: cached and loading
 description: Blogging about tech stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+meta_description: "cached - tech blog by Roy Cockram"
 
 markdown: kramdown
 logo: false
@@ -13,3 +13,6 @@ gems: [jekyll-paginate]
 # Details for the RSS feed generator
 url:            'roy46.github.io'
 author:         'Roy Cockram'
+
+sass:
+    style: compressed

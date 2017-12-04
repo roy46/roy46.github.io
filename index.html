@@ -21,7 +21,7 @@ logo: /assets/images/logo3.png
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
                 {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
+                {% if page.about %} <a class="about-me__link" href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
             </h2>
         </div>
     </div>
@@ -47,7 +47,7 @@ logo: /assets/images/logo3.png
         </section>
         <footer class="post-meta">
             {% if site.author %}
-                <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
+                <img class="author-thumb" src="/assets/images/profile_small.png" alt="Author's profile picture" nopin="nopin" />
                
             {% endif %}
             {% if post.categories.size > 0 %} 

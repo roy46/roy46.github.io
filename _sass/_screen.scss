@@ -1374,7 +1374,7 @@ body:not(.post-template) .post-title {
         font-size: 1.8rem;
         line-height: 1.5em;
     }
-
+    
     
 
     .post {
@@ -1584,6 +1584,7 @@ body:not(.post-template) .post-title {
     .page-description {
         font-size: 1.6rem;
     }
+         
 
     h1, h2, h3,
     h4, h5, h6 {
@@ -1719,6 +1720,10 @@ body:not(.post-template) .post-title {
         display: none;
     }
 
+}
+
+.about-me__link {
+    color: white;
 }
 
 
