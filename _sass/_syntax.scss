@@ -1,16 +1,12 @@
-p code {
-    font-size: 12px;
-    padding: 16px;
-    overflow: auto;
-    font-size: 14px;
-    line-height: 1.45;
-    background-color: #f6f8fa;
-    border-radius: 3px;
+
+.highlight {
+    margin: 0;
+
+    code {
+        font-size: 12px;
+    }
 }
-pre, code {
-    font-size: 12px;    
-}
-.highlight {margin: 0;}
+
 .highlight pre, pre, .highlight .hll { 
     padding: 0px; 
     border-radius: 3px; }

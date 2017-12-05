@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Aurelia and Fine Uploader Drag and Drop"
+title:  "Aurelia and Fine Uploader drag and drop"
 date:   2017-11-29 13:45:00 +0100
 categories: aurelia fine-uploaded
 cover: https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/jquery-progress-bars.png
@@ -16,9 +16,9 @@ I will assume if you’re reading this you know what Aurelia is. I will be insta
 
 First we’ll need to install the component:
 
-
-`npm install fine-uploader —save`
-
+{% highlight bash linenos=table %}
+npm install fine-uploader —save
+{% endhighlight %} 
 
 This will download the following files:
 
@@ -277,4 +277,4 @@ export class UploadService {
 }
 {% endhighlight %} 
 
-This allows us to reuse this code is we want to allow a user to upload via a browse button. I’ll show how this is possible in [another post]({% post_url 2017-11-19-fine-uploaded-and-aurelia-browser-button %})
+This allows us to reuse this code is we want to allow a user to upload via a browse button. I’ll show how this is possible in [another post]({% post_url 2017-12-02-fine-uploaded-and-aurelia-browser-button %})

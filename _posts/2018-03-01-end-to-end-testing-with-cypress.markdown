@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Integration Testing with TransactionScope Rollbacks"
-date:   2016-06-05 13:45:00 +0100
+title:  "E2E testing with Cypress - Setup "
+date:   2018-03-01 13:45:00 +0100
 categories: c-sharp sql server integration testing
 ---
 
