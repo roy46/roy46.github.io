@@ -3,6 +3,8 @@ layout: post
 title:  "SQL Server - Materialised path for fast parent child searches"
 date:   2018-03-01 13:45:00 +0100
 categories: sql server file-folder child-parent
+disqus: true
+live: false
 ---
 
 Recently I was asked to develop a file sharing application that allows the creation of folder structures that are the same as the desktop. Much like a Dropbox ro Google Drive.

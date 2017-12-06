@@ -5,6 +5,7 @@ date:   2016-06-05 13:45:00 +0100
 categories: c-sharp spatial
 cover: https://ak6.picdn.net/shutterstock/videos/11211386/thumb/1.jpg
 disqus: true
+live: true
 ---
 
 In this post we'll discuss 

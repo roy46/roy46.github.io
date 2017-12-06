@@ -3,6 +3,8 @@ layout: post
 title:  "Integration test rollback with Web API"
 date:   2017-12-04 09:07:50 +0100
 categories: csharp sqlserver integration testing
+disqus: true
+live: false
 ---
 
 In this post we’ll discuss the use of Web API, SQL Server, `HttpServer` and `TransactionScope` to write easy to maintain and rerunnable integration tests.

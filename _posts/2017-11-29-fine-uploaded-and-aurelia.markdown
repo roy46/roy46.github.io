@@ -4,6 +4,8 @@ title:  "Aurelia and Fine Uploader drag and drop"
 date:   2017-11-29 13:45:00 +0100
 categories: aurelia fine-uploaded
 cover: https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/jquery-progress-bars.png
+disqus: true
+live: true
 ---
 
 

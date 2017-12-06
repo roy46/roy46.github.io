@@ -38,28 +38,29 @@ logo: /assets/images/logo3.png
 
     {% for post in paginator.posts %}
 
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        </header>
-        <section class="post-excerpt">
-            {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
-        </section>
-        <footer class="post-meta">
-            {% if site.author %}
-            <a href='/{{ page.about }}'>   
-                <img class="author-thumb" src="/assets/images/profile_small.png" alt="Author's profile picture" nopin="nopin" />
-            </a>
-            {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'talking about ' }} 
-            {% endif %}
-            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}
-            </time> 
-        </footer>
-    </article>
-
+        {% if post.live %}
+        <article class="post">
+            <header class="post-header">
+                <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            </header>
+            <section class="post-excerpt">
+                {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
+            </section>
+            <footer class="post-meta">
+                {% if site.author %}
+                <a href='/{{ page.about }}'>   
+                    <img class="author-thumb" src="/assets/images/profile_small.png" alt="Author's profile picture" nopin="nopin" />
+                </a>
+                {% endif %}
+                {% if post.categories.size > 0 %} 
+                    {{ post.categories | array_to_sentence_string | prepend: 'talking about ' }} 
+                {% endif %}
+                <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+                    {{ post.date | date_to_string }}
+                </time> 
+            </footer>
+        </article>
+        {% endif %}
     {% endfor %}
 
     {% include pagination.html %}
