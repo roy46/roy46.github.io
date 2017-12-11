@@ -14,7 +14,7 @@ In this post we’ll talk about how to integrate and install [Fine Uploader](htt
 
 For those who don’t know fine uploader is an all in one JavaScript library for uploading files. Fine uploader has been developed in a modular way allowing a developer to pick a choose which components they need. The project is split into Core, UI and drag and drop. I will not be covering the UI component of the library instead I will discuss the core api and the drag and drop components and I’ll create a custom UI.
 
-I will assume if you’re reading this you know what Aurelia is. I will be installing fine uploader to a new project created by the aurelia-cli.
+I will assume if you’re reading this you know what Aurelia is. I will be installing IP fine uploader to a new project created by the aurelia-cli.
 
 First we’ll need to install the component:
 
@@ -41,9 +41,9 @@ Next we need to tell the Aurelia confit about our new component. In your aurelia
 }
 {% endhighlight %} 
 
-This will tel Aurelia that we have a new module called fine-uploader and the files to bundle into our app.bundle.js are located at (file path)
+This will inform the Aurelia bundler that we have a new module called fine-uploader and the files to bundle into our app.bundle.js are located at the `<path>/<main>`
 
-Now we have a module we can import. We now have two options when integrating with Aurelia. 1. A new custom component or 2. A new custom attribute. In my opinion the attribute is more developer friendly as we can just append the attribute to an element and extends its functionality.
+Now we have a module we can import. We now have two options when integrating with Aurelia. 1. A new custom component or 2. A new custom attribute. In my opinion the attribute is more developer friendly as we can just append the attribute to an element and it will extends its functionality.
 
 {% highlight ts linenos=table %}
 import { UploadService } from "./../../services/upload-service";
